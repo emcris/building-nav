@@ -1,4 +1,41 @@
-.box{
+/* Global Styles */
+
+body{
+    margin: 0;
+}
+
+/* Global Styles End */
+
+/* Nav Styles */
+
+.main-nav{
+    height: 75px;
+    background-color: tomato;
+}
+.logo{
+    height: 56px;
+    padding: 10px;
+}
+.nav-list{
+    float: right;
+    list-style-type: none;
+}
+li{
+    color: snow;
+    float: left;
+    padding: 14px 16px;
+    /* fist value applys to top and bottom and the second applys to left and right */
+}
+center{
+    text-align: center;
+}
+
+/* End Nav styles */
+
+
+/* below used for learning float */
+
+/* .box{
     height: 100px;
     width: 200px;
 }
@@ -43,4 +80,4 @@
 
 .clear-both{
     clear: both;
-}
+} */
