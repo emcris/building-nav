@@ -1,0 +1,46 @@
+.box{
+    height: 100px;
+    width: 200px;
+}
+.space{
+    height: 50px;
+}
+.red{
+    background-color: crimson;
+}
+.orange{
+    background-color: tomato;
+}
+.yellow{
+    background-color: yellow;
+  
+}
+.green{
+    background-color: mediumseagreen;
+}
+.blue{
+    background-color: dodgerblue;
+}
+.purple{
+    background-color: darkslateblue;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear-left{
+    clear: left;
+}
+
+.clear-right{
+    clear: right;
+}
+
+.clear-both{
+    clear: both;
+}
