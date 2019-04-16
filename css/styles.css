@@ -14,7 +14,6 @@ body{
 }
 .main-nav:hover{
     height: 85px;
-    
 }
 .logo{
     height: 56px;
@@ -43,6 +42,29 @@ center{
 }
 
 /* End Nav styles */
+
+
+/* Content Styles */
+.content{
+    height: 70vh;
+}
+/* End Content Styels */
+
+
+/* Footer Styels */
+.footer{
+    background-color: dodgerblue;
+}
+.social-media{
+    height: 50px;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: snow;
+}
+/* End Footer Styles */
 
 
 /* below used for learning float */
