@@ -47,12 +47,17 @@ center{
 /* Content Styles */
 .content{
     height: 70vh;
+    display: flex;
+    margin: 30px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 iframe{
     width:250px;
     height: 250px;
-    margin: 25px;
+    /* margin: 25px; */
 }
+
 /* End Content Styels */
 
 
