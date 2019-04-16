@@ -48,12 +48,18 @@ center{
 .content{
     height: 70vh;
 }
+iframe{
+    width:250px;
+    height: 250px;
+    margin: 25px;
+}
 /* End Content Styels */
 
 
 /* Footer Styels */
 .footer{
     background-color: dodgerblue;
+    height: 155px;
 }
 .social-media{
     height: 50px;
