@@ -14,7 +14,6 @@ body{
 }
 .main-nav:hover{
     height: 85px;
-    
 }
 .logo{
     height: 56px;
@@ -47,7 +46,7 @@ center{
 
 /* Content Styles */
 .content{
-    height: 80vh;
+    height: 70vh;
 }
 /* End Content Styels */
 
