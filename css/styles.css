@@ -45,12 +45,10 @@ center{
 
 
 /* Content Styles */
+
 .content{
-    margin: 24px;
     display: flex;
-    flex-wrap: wrap;
     margin: 30px;
-    justify-content: center;
     flex-direction: column;
 }
 iframe{
@@ -61,6 +59,7 @@ iframe{
 audio{
     margin-bottom: 25px;
 }
+
 /* End Content Styels */
 
 
