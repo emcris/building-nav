@@ -23,6 +23,9 @@ body{
     float: right;
     list-style-type: none;
 }
+.no-list-style{
+    
+}
 li{
     color: snow;
     float: left;
@@ -60,7 +63,36 @@ iframe{
 audio{
     margin-bottom: 25px;
 }
-
+/* This is the example for OOCSS */
+.oocss-buttons{
+    display: flex;
+    flex-direction: row;
+}
+.button{
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    border-radius: 24px;
+    margin: 10px;
+    border:none;
+}
+.button-success{
+    background: mediumspringgreen;
+}
+.button-danger{
+    background: tomato;
+}
+.button-small{
+    width: 150px;
+}
+.button-large{
+    width: 250px;
+}
+.button-default{
+    background: #eee;
+    color:cadetblue; 
+}
+/* End OOCSS Example */
 /* End Content Styels */
 
 
