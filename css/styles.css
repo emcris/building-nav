@@ -75,12 +75,21 @@ audio{
     border-radius: 24px;
     margin: 10px;
     border:none;
+    transition: 350ms ease-in;
 }
 .button-success{
     background: mediumspringgreen;
 }
+.button-success:hover{
+    background-color:seagreen;
+    transition: 350ms ease-in;
+}
 .button-danger{
     background: tomato;
+}
+.button-danger:hover{
+    background-color:orangered;
+    transition: 350ms ease-in;
 }
 .button-small{
     width: 150px;
@@ -91,6 +100,11 @@ audio{
 .button-default{
     background: #eee;
     color:cadetblue; 
+}
+.button-default:hover{
+    background-color:skyblue;
+    transition: 350ms ease-in;
+    color: seashell;
 }
 /* End OOCSS Example */
 /* End Content Styels */
@@ -112,6 +126,23 @@ a{
 }
 /* End Footer Styles */
 
+/* Learning Media Q */
+
+@media (min-width: 768px) and (max-width:1024px){
+    .button{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    iframe{
+        width: 400px;
+    }
+    .oocss-buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 /* below used for learning float */
 
