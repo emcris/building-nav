@@ -107,6 +107,22 @@ audio{
     color: seashell;
 }
 /* End OOCSS Example */
+
+/* Family Tree Styles */
+span{
+    background-color: mediumaquamarine;
+}
+.family > span > span{
+    background-color: orange;
+}
+ul.social-media > li{
+    padding: 20px 24px;
+}
+.second-span ~ .first-span{
+    color: mediumorchid;
+}
+/* End Family Tree Styles */
+
 /* End Content Styels */
 
 
