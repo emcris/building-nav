@@ -1,0 +1,210 @@
+/* Global Styles */
+
+body{
+    margin: 0;
+}
+
+/* Global Styles End */
+
+/* Nav Styles */
+
+.main-nav{
+    height: 75px;
+    background-color: tomato;
+}
+.main-nav:hover{
+    height: 85px;
+}
+.logo{
+    height: 56px;
+    padding: 10px;
+}
+.nav-list{
+    float: right;
+    list-style-type: none;
+}
+.no-list-style{
+    
+}
+li{
+    color: snow;
+    float: left;
+    padding: 14px 16px;
+    /* fist value applys to top and bottom and the second applys to left and right */
+}
+li:hover{
+    font-size: 30px;
+    padding: 5px 16px;
+}
+.logo:hover{
+    height: 66px;
+
+}
+center{
+    text-align: center;
+}
+
+/* End Nav styles */
+
+
+/* Content Styles */
+
+.content{
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+iframe{
+    margin-bottom: 25px;
+    width: 650px;
+    height: 250px;
+}
+audio{
+    margin-bottom: 25px;
+}
+/* This is the example for OOCSS */
+.oocss-buttons{
+    display: flex;
+    flex-direction: row;
+}
+.button{
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    border-radius: 24px;
+    margin: 10px;
+    border:none;
+    transition: 350ms ease-in;
+}
+.button-success{
+    background: mediumspringgreen;
+}
+.button-success:hover{
+    background-color:seagreen;
+    transition: 350ms ease-in;
+}
+.button-danger{
+    background: tomato;
+}
+.button-danger:hover{
+    background-color:orangered;
+    transition: 350ms ease-in;
+}
+.button-small{
+    width: 150px;
+}
+.button-large{
+    width: 250px;
+}
+.button-default{
+    background: #eee;
+    color:cadetblue; 
+}
+.button-default:hover{
+    background-color:skyblue;
+    transition: 350ms ease-in;
+    color: seashell;
+}
+/* End OOCSS Example */
+
+/* Family Tree Styles */
+span{
+    background-color: mediumaquamarine;
+}
+.family > span > span{
+    background-color: orange;
+}
+ul.social-media > li{
+    padding: 20px 24px;
+}
+.second-span ~ .first-span{
+    color: mediumorchid;
+}
+/* End Family Tree Styles */
+
+/* End Content Styels */
+
+
+/* Footer Styels */
+.footer{
+    background-color: dodgerblue;
+    height: 155px;
+}
+.social-media{
+    height: 50px;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: snow;
+}
+/* End Footer Styles */
+
+/* Learning Media Q */
+
+@media (min-width: 768px) and (max-width:1024px){
+    .button{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    iframe{
+        width: 400px;
+    }
+    .oocss-buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* below used for learning float */
+
+/* .box{
+    height: 100px;
+    width: 200px;
+}
+.space{
+    height: 50px;
+}
+.red{
+    background-color: crimson;
+}
+.orange{
+    background-color: tomato;
+}
+.yellow{
+    background-color: yellow;
+  
+}
+.green{
+    background-color: mediumseagreen;
+}
+.blue{
+    background-color: dodgerblue;
+}
+.purple{
+    background-color: darkslateblue;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear-left{
+    clear: left;
+}
+
+.clear-right{
+    clear: right;
+}
+
+.clear-both{
+    clear: both;
+} */
